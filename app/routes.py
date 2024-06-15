@@ -84,8 +84,6 @@ def upload_file():
 @app.route('/health')
 def health():
     return "Healthy", 200
-# @app.route('/api/greet/<name>', methods=['GET'])
-# def greet(name):
-#     return jsonify(message=f"Hello, {name}!")
+
 
 
