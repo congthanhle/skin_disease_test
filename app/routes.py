@@ -68,7 +68,9 @@ def upload_file():
         generate_chart(prediction[0]) 
     return render_template('predict.html', title='Success', predictions=disease, acc=accuracy*100, img_file=f.filename)
 
-
+@app.route('/health')
+def health():
+    return "Healthy", 200
 # @app.route('/api/greet/<name>', methods=['GET'])
 # def greet(name):
 #     return jsonify(message=f"Hello, {name}!")
