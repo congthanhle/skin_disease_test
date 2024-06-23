@@ -29,9 +29,29 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">About us</a>
+              <a
+                class="nav-link text-dark"
+                href="https://drive.google.com/drive/folders/1xE1SDi3rwg0bId54JC043aEo5w34o5WT?usp=sharing"
+                target="_blank"
+                >Download samples
+              </a>
             </li>
           </ul>
+          <div class="d-flex">
+            <img
+              width="55"
+              src="../static/img/Logo-DH-Cong-Nghe-Thong-Tin-UIT.png"
+            />
+            <img
+              width="46"
+              class="mx-3"
+              src="../static/img/Logo-Khoa-HTTT.png"
+            />
+            <div class="school-name">
+              University of Information Technology <br />
+              Faculty of Information Systems
+            </div>
+          </div>
         </div>
       </nav>
       <div class="container py-4">
@@ -87,8 +107,10 @@
                 class="form-select mb-4 rounded-pill text-center"
                 aria-label="Default select example"
                 style="height: 40px; width: 224px"
+                id="model"
+                name="model"
               >
-                <option selected>Ensemble</option>
+                <option value="0" selected>Ensemble</option>
                 <option value="1">ResNet 50</option>
                 <option value="2">VGG 19</option>
                 <option value="3">EfficientNet</option>
@@ -102,8 +124,32 @@
           </div>
         </div>
       </div>
-      <footer class="text-center text-light">
-        <p>&copy; 2024 ThanhLC & QuangTV. All rights reserved.</p>
+      <footer class="footer fixed-bottom">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-5 mb-3 d-flex justify-content-md-center">
+            <div class="inline-block pr-2">
+              <strong>Topic: </strong>
+            </div>
+            <div class="inline-block">
+              DIAGNOSIS OF SKIN DISEASE USING DEEP LEARNING METHODS<br />
+            </div>
+          </div>
+          <div class="col-md-3 mb-3 d-flex justify-content-md-center">
+            <div class="inline-block pr-2">
+              <strong>Students: </strong>
+            </div>
+            <div class="inline-block">
+              Tran Van Quang - 20520722<br />
+              Le Cong Thanh - 20520763
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 d-flex justify-content-md-center">
+            <div>
+              <strong>Supervisor: </strong>Duong Phi Long, M.Sc<br />
+              <strong>Time duration: </strong> Feb - Jun 2024
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -35,10 +35,22 @@
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">About us</a>
-            </li>
           </ul>
+          <div class="d-flex">
+            <img
+              width="55"
+              src="../static/img/Logo-DH-Cong-Nghe-Thong-Tin-UIT.png"
+            />
+            <img
+              width="46"
+              class="mx-3"
+              src="../static/img/Logo-Khoa-HTTT.png"
+            />
+            <div class="school-name">
+              University of Information Technology <br />
+              Faculty of Information Systems
+            </div>
+          </div>
         </div>
       </nav>
     <div class="container-fluid">
@@ -55,15 +67,20 @@
         <div class="col-md-8 d-flex flex-column">
           <!-- Section 2 -->
           <section
-            class="section section-2 flex-grow-1 d-flex flex-column align-items-center justify-content-center"
+            class="section section-2 flex-grow-1 d-flex align-items-center justify-content-center"
           >
-            <img class="image-predict" src="static/data/{{img_file}}" />
+            <img class="image-predict mr-4" src="static/data/{{img_file}}" />
+            <div>
+                <p><b>Accuracy:</b> {{acc}}%</p>
+                <p><b>Label:</b> {{predictions}}</p>
+            </div>
+            
           </section>
           <!-- Section 3 -->
           <section
             class="section section-3"
           >
-          <iframe src='{{skinDiseaseLink}}' class='disinfo'></iframe>
+          <embed src="static/docs/Actinic-Keratoses-PIL-Dec-2020.pdf#toolbar=0"  class='disinfo' type="application/pdf">
           </section>
         </div>
       </div>
