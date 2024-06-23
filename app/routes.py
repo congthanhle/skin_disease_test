@@ -31,13 +31,13 @@ SKIN_CLASSES = {
 }
 
 SKIN_CLASSES_LINK = {
-  0: 'static/docs/Actinic-Keratoses-PIL-Dec-2020.pdf#toolbar=0', #AKIEC
-  1: 'https://dermnetnz.org/topics/basal-cell-carcinoma', 
-  2: 'https://dermnetnz.org/topics/seborrhoeic-keratosis',  
-  3: 'https://dermnetnz.org/topics/dermatofibroma', 
-  4: 'https://dermnetnz.org/topics/melanoma', 
-  5: 'https://dermnetnz.org/topics/melanocytic-naevus',
-  6: 'https://www.ssmhealth.com/cardinal-glennon/services/pediatric-plastic-reconstructive-surgery/hemangiomas#:~:text=Vascular%20lesions%20are%20relatively%20common,Vascular%20Malformations%2C%20and%20Pyogenic%20Granulomas.' # Tổn thương mạch máu ở da
+  0: 'static/docs/AKIEC.pdf#toolbar=0', #AKIEC
+  1: 'static/docs/BCC.pdf#toolbar=0', 
+  2: 'static/docs/Benign-Keratosis.pdf#toolbar=0',  
+  3: 'static/docs/DF.pdf#toolbar=0', 
+  4: 'static/docs/MEL.pdf#toolbar=0',  
+  5: 'static/docs/NV.pdf#toolbar=0',
+  6: 'static/docs/VASC.pdf#toolbar=0',
 }
 
 def generate_chart(prediction_probs):
