@@ -148,8 +148,14 @@ table {
 	vertical-align: top;
 }
 
-@media (max-width: 1401px) {
+@media (max-width: 1420px) {
 	#home{
-		min-height: calc(100vh + 30vw);
+		min-height: calc(100vh + 50vh);
+	}
+}
+
+@media (max-width: 500px) {
+	#home{
+		min-height: calc(100vh + 90vh);
 	}
 }
